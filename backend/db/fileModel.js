@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect(
-    "mongodb+srv://webtech:admin@cluster0.azdluye.mongodb.net/?retryWrites=true&w=majority"
-  )
+  .connect
+  //mongoURI
+  ()
   .then(() => {
     console.log("connected");
   });
